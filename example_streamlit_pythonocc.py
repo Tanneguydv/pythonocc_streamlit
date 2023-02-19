@@ -27,8 +27,8 @@ class app():
         self.create_sliders()  
         self.create_shape()
         
-        adress= self.queue.get()
-        components.iframe(adress, height=600, width=1100)
+        address= self.queue.get()
+        components.iframe(address, height=600, width=1100)
 
         if self.bool :
             st.sidebar.success("Touch, you're awesome!", icon="✅") 
@@ -66,8 +66,8 @@ class app():
         thread.start()
 
     def render_thread(self, q):
-        adress= self.my_renderer.render()
-        q.put(adress)
+        address= self.my_renderer.render()
+        q.put(address)
 
 if __name__ == '__main__':
     ap = app()
