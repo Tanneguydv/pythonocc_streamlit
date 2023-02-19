@@ -5,8 +5,8 @@ a way to interact with pythonocc webbrowser display with streamlit
 
 Prerequisites:
 
-1. streamlit:  https://github.com/leon-thomm/Ryven
-2. pythonocc-core: https://anaconda.org/conda-forge/pythonocc-core
+1. streamlit: https://streamlit.io/
+2. pythonocc-core: https://github.com/tpaviot/pythonocc-core
 
 ```
 # first create an environment
