@@ -624,8 +624,8 @@ class ThreejsRenderer:
         # generate HTML file
         self.generate_html_file()
         # then create a simple web server
-        adress = start_server(addr, server_port, self._path, open_webbrowser)
-        return adress
+        address = start_server(addr, server_port, self._path, open_webbrowser)
+        return address
 
 
 if __name__ == "__main__":
