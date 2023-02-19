@@ -18,7 +18,7 @@ pip install streamlit
 
 ### Usage
 
-In your terminal, with your conda env activate, just type:
+In your terminal, with your conda env activated, just type:
 ```
 streamlit run path_to_your_file/example_streamlit_pythonocc.py
 ```
