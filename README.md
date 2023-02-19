@@ -33,4 +33,4 @@ Here a small example of application:
 
 ### How it works
 
-When pythonocc server refresh when streamlit rerun, we had to let the ```.render()``` function return the new server's address
+As pythonocc server refresh when streamlit rerun, we had to let the ```.render()``` function return the new server's address to pass it to the iframe
