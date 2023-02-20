@@ -44,6 +44,7 @@ dependencies:
   - gst-plugins-base=1.21.3
   - gstreamer=1.21.3
   - gstreamer-orc=0.4.33
+  - gxx_linux-64==11.1.0
   - hdf4=4.2.15
   - hdf5=1.12.2
   - icu=70.1
