@@ -39,7 +39,6 @@ dependencies:
   - icu=70.1
   - idna=3.4
   - imath=3.1.6
-  - intel-openmp=2023.0.0
   - jpeg=9e
   - jsoncpp=1.9.5
   - jxrlib=1.1
@@ -86,7 +85,6 @@ dependencies:
   - pcre2=10.40
   - pip=23.0.1
   - proj=9.1.1
-  - pthreads-win32=2.9.1
   - pugixml=1.11.4
   - pyparsing=3.0.9
   - python=3.9.16
@@ -104,10 +102,7 @@ dependencies:
   - tk=8.6.12
   - typing-extensions=4.4.0
   - typing_extensions=4.4.0
-  - ucrt=10.0.22621.0
   - utfcpp=3.2.3
-  - vc=14.3
-  - vs2015_runtime=14.34.31931
   - vtk=9.2.5
   - wheel=0.38.4
   - win32_setctime=1.1.0
