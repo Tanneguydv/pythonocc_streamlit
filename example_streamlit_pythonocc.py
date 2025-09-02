@@ -15,7 +15,7 @@ from multiprocessing import Queue
 
 class app():
     def __init__(self):
-        self.my_renderer = threejs_renderer_st.ThreejsRenderer(path='.')
+        self.my_renderer = threejs_renderer_st.ThreejsRenderer()
         self.queue = Queue()
         self.setup_streamlit()
         
@@ -74,4 +74,5 @@ if __name__ == '__main__':
 
 
 # streamlit run path_to_your_file/example_streamlit_pythonocc.py
+
 
