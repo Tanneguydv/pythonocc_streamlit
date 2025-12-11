@@ -20,7 +20,7 @@ pip install streamlit
 
 In your terminal, with your conda env activated, just type:
 ```
-streamlit run path_to_your_file/example_streamlit_pythonocc.py
+streamlit run <explicit path_to_your_repo>/example_streamlit_pythonocc.py
 ```
 
 ### Examples
